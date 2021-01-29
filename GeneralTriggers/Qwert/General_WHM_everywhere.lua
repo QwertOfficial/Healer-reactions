@@ -28,7 +28,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "2ab5a5eb-0003-99a5-89bf-80534a8875bf",
+		uuid = "7df6dfbb-88b4-cb57-ad73-2c4f918a0c0c",
 	},
 	
 	{
@@ -38,7 +38,7 @@ local tbl =
 			{
 				aType = 4,
 				actionID = -1,
-				actionLua = "if QwertWHMevHealGui == nil then \n    QwertWHMevHealGui = {\n        [1] = {\n            name = \"Heal\",\n            var = \"WHMevHealGui\",\n            bool = WHMevHealGui ,\n            key = nil,\n            modifier = nil,\n        },\n        [2] = {\n            name = \"Esuna\",\n            var = \"WHMevEsunaGui\",\n            bool = WHMevEsunaGui ,\n            key = nil,\n            modifier = nil,\n        },\n        [3] = {\n            name = \"Asylum\",\n            var = \"WHMevAsylumGui\",\n            bool = WHMevAsylumGui ,\n            key = nil,\n            modifier = nil,\n        },\n        [4] = {\n            name = \"Dungeon\",\n            var = \"WHMevDungeonGui\",\n            bool = WHMevDungeonGui ,\n            key = nil,\n            modifier = nil,\n        },\n        [4] = {\n            name = \"Temperance\",\n            var = \"WHMevTempGui\",\n            bool = WHMevTempGui ,\n            key = nil,\n            modifier = nil,\n        },\n        [5] = {\n            name = \"Normal GCD\",\n            var = \"WHMevLilyGui\",\n            bool = WHMevLilyGui ,\n            key = nil,\n            modifier = nil,\n        },\n    } \nend\n\nGUI:SetNextWindowSize(200,200,GUI.SetCond_FirstUseEver)\nGUI:PushStyleColor(GUI.Col_WindowBg, 0,0,0,115/255)\nGUI:Begin(\"QwertWHMevHealGui\", true, GUI.WindowFlags_NoTitleBar + GUI.WindowFlags_NoScrollbar + GUI.WindowFlags_NoScrollWithMouse + GUI.WindowFlags_NoCollapse + GUI.WindowFlags_AlwaysAutoResize)\nGUI:PopStyleColor(1)\n\nfor k,v in pairs(QwertWHMevHealGui) do\n    local r,g,b,t = (function() if v.bool == true then return 46/255,125/255,50/255,191/255 else return 41/255,0/255,0/255,191/255 end end)()\n\t\t\t\tlocal butx,buty = 96,27\n    GUI:PushStyleVar(GUI.StyleVar_ChildWindowRounding,5)\n    GUI:PushStyleColor(GUI.Col_ChildWindowBg, r, g, b, t)\n    GUI:BeginChild(\"##HealGuibutton\"..tostring(k), butx, buty, false, GUI.WindowFlags_NoSavedSettings + GUI.WindowFlags_NoTitleBar + GUI.WindowFlags_NoScrollbar + GUI.WindowFlags_NoScrollWithMouse)\n    local x,y = GUI:CalcTextSize(v.name)\n    GUI:SetCursorPos(butx/2-x/2,buty/2-y/2)\n    GUI:Text(v.name)\n    GUI:PopStyleColor()\n    GUI:PopStyleVar()\n    GUI:EndChild()\n    if v.bool == nil then local f = loadstring(v.var..\" = \"..tostring(not v.bool)) f() v.bool = not v.bool end\n    if GUI:IsItemClicked(0) then local f = loadstring(v.var..\" = \"..tostring(not v.bool)) f() v.bool = not v.bool end\n    if v.key ~= nil and v.modifier ~= nil and GUI:IsKeyPressed(v.key) == true and GUI:IsKeyDown(v.modifier) == true then\n        v.bool = not v.bool\n    end\n    if v.key ~= nil and v.modifier == nil and GUI:IsKeyPressed(v.key) == true then\n        v.bool = not v.bool\n    end\nend\n\nGUI:End()\nself.used = true\nreaction.eventConditionMismatch = true",
+				actionLua = "if QwertWHMevHealGui == nil then \n    QwertWHMevHealGui = {\n        [1] = {\n            name = \"Heal\",\n            var = \"WHMevHealGui\",\n            bool = WHMevHealGui ,\n            key = nil,\n            modifier = nil,\n        },\n        [2] = {\n            name = \"Esuna\",\n            var = \"WHMevEsunaGui\",\n            bool = WHMevEsunaGui ,\n            key = nil,\n            modifier = nil,\n        },\n        [3] = {\n            name = \"Asylum\",\n            var = \"WHMevAsylumGui\",\n            bool = WHMevAsylumGui ,\n            key = nil,\n            modifier = nil,\n        },\n        [4] = {\n            name = \"Dungeon\",\n            var = \"WHMevDungeonGui\",\n            bool = WHMevDungeonGui ,\n            key = nil,\n            modifier = nil,\n        },\n        [5] = {\n            name = \"Temperance\",\n            var = \"WHMevTempGui\",\n            bool = WHMevTempGui ,\n            key = nil,\n            modifier = nil,\n        },\n        [6] = {\n            name = \"Normal GCD\",\n            var = \"WHMevLilyGui\",\n            bool = WHMevLilyGui ,\n            key = nil,\n            modifier = nil,\n        },\n    } \nend\n\nGUI:SetNextWindowSize(200,200,GUI.SetCond_FirstUseEver)\nGUI:PushStyleColor(GUI.Col_WindowBg, 0,0,0,115/255)\nGUI:Begin(\"QwertWHMevHealGui\", true, GUI.WindowFlags_NoTitleBar + GUI.WindowFlags_NoScrollbar + GUI.WindowFlags_NoScrollWithMouse + GUI.WindowFlags_NoCollapse + GUI.WindowFlags_AlwaysAutoResize)\nGUI:PopStyleColor(1)\n\nfor k,v in pairs(QwertWHMevHealGui) do\n    local r,g,b,t = (function() if v.bool == true then return 46/255,125/255,50/255,191/255 else return 41/255,0/255,0/255,191/255 end end)()\n\t\t\t\tlocal butx,buty = 96,27\n    GUI:PushStyleVar(GUI.StyleVar_ChildWindowRounding,5)\n    GUI:PushStyleColor(GUI.Col_ChildWindowBg, r, g, b, t)\n    GUI:BeginChild(\"##HealGuibutton\"..tostring(k), butx, buty, false, GUI.WindowFlags_NoSavedSettings + GUI.WindowFlags_NoTitleBar + GUI.WindowFlags_NoScrollbar + GUI.WindowFlags_NoScrollWithMouse)\n    local x,y = GUI:CalcTextSize(v.name)\n    GUI:SetCursorPos(butx/2-x/2,buty/2-y/2)\n    GUI:Text(v.name)\n    GUI:PopStyleColor()\n    GUI:PopStyleVar()\n    GUI:EndChild()\n    if v.bool == nil then local f = loadstring(v.var..\" = \"..tostring(not v.bool)) f() v.bool = not v.bool end\n    if GUI:IsItemClicked(0) then local f = loadstring(v.var..\" = \"..tostring(not v.bool)) f() v.bool = not v.bool end\n    if v.key ~= nil and v.modifier ~= nil and GUI:IsKeyPressed(v.key) == true and GUI:IsKeyDown(v.modifier) == true then\n        v.bool = not v.bool\n    end\n    if v.key ~= nil and v.modifier == nil and GUI:IsKeyPressed(v.key) == true then\n        v.bool = not v.bool\n    end\nend\n\nGUI:End()\nself.used = true\nreaction.eventConditionMismatch = true",
 				allowInterrupt = false,
 				atomicPriority = false,
 				castAtMouse = false,
@@ -265,7 +265,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "87b774eb-5cd3-de97-b0cb-6eb354b30ce7",
+		uuid = "0faf7ba3-3801-e429-bcb6-d646cc54983a",
 	},
 	
 	{
@@ -295,7 +295,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "5525466c-b4ac-ed87-acc9-ee3049f84fc9",
+		uuid = "9746157b-42a7-f7f8-b739-c54a612bf3c2",
 	},
 	
 	{
@@ -1135,7 +1135,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "d5f76449-96f6-cb92-ab23-e68f9dff5da5",
+		uuid = "5f3d9416-870e-8ba7-8961-667509b1e274",
 	},
 	
 	{
@@ -1451,7 +1451,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "443f56e1-4b86-b17b-8675-a4bc4e5c7882",
+		uuid = "22cb2612-5724-7ec7-8e56-6b6cfcae2f5f",
 	},
 	
 	{
@@ -1893,7 +1893,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "87e0e84b-a5e0-396e-b138-939954d273dd",
+		uuid = "892a043b-c32a-9903-af55-a031046ddffe",
 	},
 	
 	{
@@ -2333,7 +2333,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "611b4bd3-b3e6-100a-9b15-645d622326ab",
+		uuid = "a279acca-8df6-0bb7-8960-2943bb701d4a",
 	},
 	
 	{
@@ -2363,7 +2363,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "5cefcfae-dc28-68b7-9c92-3ac8e50ee965",
+		uuid = "68bb7853-f774-0e66-a88b-048b5b0c2f95",
 	},
 	
 	{
@@ -2976,7 +2976,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "be792735-8277-9132-9764-4a2f3633192d",
+		uuid = "27c96908-2352-f124-8972-9532b0598291",
 	},
 	
 	{
@@ -3006,7 +3006,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "88f64a9a-e4a1-21e0-9a3e-3a5d468f839b",
+		uuid = "3c802946-c554-6060-8913-4afc6396db7a",
 	},
 	
 	{
@@ -3323,7 +3323,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "a5816262-d980-308b-8dc3-e6c6f3dd58cb",
+		uuid = "35a0e8f7-2003-0b05-a512-c9e971c5eacb",
 	},
 	
 	{
@@ -3560,7 +3560,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "ba6318dc-12e2-d795-b3b2-7931d3f7db64",
+		uuid = "cfcfc262-58eb-af3a-9cf7-c276c7dda689",
 	},
 	
 	{
@@ -3797,7 +3797,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "38d31b7c-1dbe-83f5-89ec-533f49e6a39e",
+		uuid = "e9871a4a-e25e-6db4-bd4e-4b8cd29a2df6",
 	},
 	
 	{
@@ -3827,7 +3827,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "38287c7c-20ed-232a-872d-46b47181b62d",
+		uuid = "63377b9f-2391-6183-9677-6472cddca7f2",
 	},
 	
 	{
@@ -5359,7 +5359,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "c0a7acad-5e65-a817-a031-452e42ce3047",
+		uuid = "ab5289ed-20ee-0126-98b9-46d9793795a8",
 	},
 	
 	{
@@ -5389,7 +5389,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "bfa33247-711b-6549-bff4-968f8ca19ecc",
+		uuid = "d200022c-7064-a775-a34d-51e132458091",
 	},
 	
 	{
@@ -5412,7 +5412,7 @@ local tbl =
 				clusterRange = 30,
 				conditions = 
 				{
-					56,
+					88,
 				},
 				endIfUsed = true,
 				gVar = "",
@@ -5487,7 +5487,7 @@ local tbl =
 				useItemName = "",
 				usePot = false,
 				used = false,
-				variableIsHover = false,
+				variableIsHover = true,
 				variableTogglesType = 4,
 			},
 			
@@ -5535,7 +5535,7 @@ local tbl =
 				useItemName = "",
 				usePot = false,
 				used = false,
-				variableIsHover = false,
+				variableIsHover = true,
 				variableTogglesType = 4,
 			},
 			
@@ -5583,7 +5583,7 @@ local tbl =
 				useItemName = "",
 				usePot = false,
 				used = false,
-				variableIsHover = false,
+				variableIsHover = true,
 				variableTogglesType = 4,
 			},
 			
@@ -5793,7 +5793,7 @@ local tbl =
 				useItemName = "",
 				usePot = false,
 				used = false,
-				variableIsHover = false,
+				variableIsHover = true,
 				variableTogglesType = 4,
 			},
 			
@@ -5949,7 +5949,7 @@ local tbl =
 				useItemName = "",
 				usePot = false,
 				used = false,
-				variableIsHover = false,
+				variableIsHover = true,
 				variableTogglesType = 4,
 			},
 			
@@ -5997,7 +5997,7 @@ local tbl =
 				useItemName = "",
 				usePot = false,
 				used = false,
-				variableIsHover = false,
+				variableIsHover = true,
 				variableTogglesType = 4,
 			},
 			
@@ -6195,7 +6195,7 @@ local tbl =
 				useItemName = "",
 				usePot = false,
 				used = false,
-				variableIsHover = false,
+				variableIsHover = true,
 				variableTogglesType = 4,
 			},
 			
@@ -6245,7 +6245,7 @@ local tbl =
 				useItemName = "",
 				usePot = false,
 				used = false,
-				variableIsHover = false,
+				variableIsHover = true,
 				variableTogglesType = 4,
 			},
 			
@@ -6296,7 +6296,7 @@ local tbl =
 				useItemName = "",
 				usePot = false,
 				used = false,
-				variableIsHover = false,
+				variableIsHover = true,
 				variableTogglesType = 4,
 			},
 			
@@ -6348,7 +6348,7 @@ local tbl =
 				useItemName = "",
 				usePot = false,
 				used = false,
-				variableIsHover = false,
+				variableIsHover = true,
 				variableTogglesType = 4,
 			},
 			
@@ -6399,7 +6399,7 @@ local tbl =
 				useItemName = "",
 				usePot = false,
 				used = false,
-				variableIsHover = false,
+				variableIsHover = true,
 				variableTogglesType = 4,
 			},
 			
@@ -6452,7 +6452,7 @@ local tbl =
 				useItemName = "",
 				usePot = false,
 				used = false,
-				variableIsHover = false,
+				variableIsHover = true,
 				variableTogglesType = 4,
 			},
 		},
@@ -7762,7 +7762,7 @@ local tbl =
 				clusterRadius = 8,
 				clusterRange = 30,
 				comparator = 2,
-				conditionLua = "local target = EntityList:Get(eventArgs.detectionTargetID)\nlocal potency = 700\n\nif not target then return false end\n\nif target.HP.percent >= 100 then return false end\n\nif TensorCore.isTank(target) then return false end\n\nif Player.levels[24] ~= Player.level and Player.level <= 10 then\n    return (target.HP.percent/100) <= 0.7\nend\n\nif Player.level <= 30 then potency = 450 end\n\nif Player.levels[24] ~= Player.level and Player.level > 10 and Player.level <= 60 then\n    local x = Player.level\n    local formula = ((-7.291666666666*(10^-9)*(x^3))+(8.749999999999*(10^-7)*(x^2))-(0.0000442708*x)+(0.0015625))\n    local HealInPercent\t= (formula * potency) - (0.0005696 * (\t\t80 - Player.levels[24]))\n    return (target.HP.current + (Player.HP.max * HealInPercent * (math.random(975, 1025) / 1000))) / target.HP.max <= 1.06\nend\n\nreturn TensorCore.getPredictedDirectHealHP(target, round(potency,0), false, false, false, 1) <= 1.06",
+				conditionLua = "local target = EntityList:Get(eventArgs.detectionTargetID)\nlocal potency = 700\n\nif not target then return false end\n\nif target.HP.percent >= 100 then return false end\n\nif TensorCore.isTank(target) then return false end\n\nif Player.levels[24] ~= Player.level and Player.level <= 10 then\n    return (target.HP.percent/100) <= 0.7\nend\n\nif Player.level <= 30 then potency = 450 end\n\nif Player.levels[24] ~= Player.level and Player.level > 10 and Player.level <= 60 then\n    local x = Player.level\n    local formula = ((-7.291666666666*(10^-9)*(x^3))+(8.749999999999*(10^-7)*(x^2))-(0.0000442708*x)+(0.0015625))\n    local HealInPercent\t= (formula * potency) - (0.0005696 * (\t\t80 - Player.levels[24]))\n    return (target.HP.current + (Player.HP.max * HealInPercent * (math.random(975, 1025) / 1000))) / target.HP.max <= 1.02\nend\n\nreturn TensorCore.getPredictedDirectHealHP(target, round(potency,0), false, false, false, 1) <= 1.02",
 				conditionType = 2,
 				conditions = 
 				{
@@ -7841,7 +7841,7 @@ local tbl =
 				clusterRadius = 8,
 				clusterRange = 30,
 				comparator = 2,
-				conditionLua = "local target = EntityList:Get(eventArgs.detectionTargetID)\nlocal potency = 450\n\nif not target then return false end\n\nif target.HP.percent >= 100 then return false end\n\nif TensorCore.isTank(target) then return false end\n\nif Player.levels[24] ~= Player.level and Player.level <= 10 then\n    return (target.HP.percent/100) <= 0.7\nend\n\nif Player.level <= 30 then potency = 450 end\n\nif Player.levels[24] ~= Player.level and Player.level > 10 and Player.level <= 60 then\n    local x = Player.level\n    local formula = ((-7.291666666666*(10^-9)*(x^3))+(8.749999999999*(10^-7)*(x^2))-(0.0000442708*x)+(0.0015625))\n    local HealInPercent\t= (formula * potency) - (0.0005696 * (\t\t80 - Player.levels[24]))\n    return (target.HP.current + (Player.HP.max * HealInPercent * (math.random(975, 1025) / 1000))) / target.HP.max <= 1.06\nend\n\nreturn TensorCore.getPredictedDirectHealHP(target, round(potency,0), false, false, false, 1) <= 1.06",
+				conditionLua = "local target = EntityList:Get(eventArgs.detectionTargetID)\nlocal potency = 450\n\nif not target then return false end\n\nif target.HP.percent >= 100 then return false end\n\nif TensorCore.isTank(target) then return false end\n\nif Player.levels[24] ~= Player.level and Player.level <= 10 then\n    return (target.HP.percent/100) <= 0.7\nend\n\nif Player.level <= 30 then potency = 450 end\n\nif Player.levels[24] ~= Player.level and Player.level > 10 and Player.level <= 60 then\n    local x = Player.level\n    local formula = ((-7.291666666666*(10^-9)*(x^3))+(8.749999999999*(10^-7)*(x^2))-(0.0000442708*x)+(0.0015625))\n    local HealInPercent\t= (formula * potency) - (0.0005696 * (\t\t80 - Player.levels[24]))\n    return (target.HP.current + (Player.HP.max * HealInPercent * (math.random(975, 1025) / 1000))) / target.HP.max <= 1.02\nend\n\nreturn TensorCore.getPredictedDirectHealHP(target, round(potency,0), false, false, false, 1) <= 1.02",
 				conditionType = 2,
 				conditions = 
 				{
@@ -7999,7 +7999,7 @@ local tbl =
 				clusterRadius = 8,
 				clusterRange = 30,
 				comparator = 2,
-				conditionLua = "local target = EntityList:Get(eventArgs.detectionTargetID)\nlocal potency = 300\n\nif not target then return false end\n\nif target.HP.percent >= 100 then return false end\n\nif Player.levels[24] ~= Player.level and Player.level <= 10 then\n    return (target.HP.percent/100) <= 0.8\nend\n\nif Player.levels[24] ~= Player.level and Player.level > 10 and Player.level <= 60 then\n    local x = Player.level\n    local formula = ((-7.291666666666*(10^-9)*(x^3))+(8.749999999999*(10^-7)*(x^2))-(0.0000442708*x)+(0.0015625))\n    local HealInPercent\t= (formula * potency) - (0.0005696 * (\t\t80 - Player.levels[24]))\n    return (target.HP.current + (Player.HP.max * HealInPercent * (math.random(975, 1025) / 1000))) / target.HP.max <= 1.02\nend\n\nreturn TensorCore.getPredictedDirectHealHP(target, round(potency,0), false, false, false, 1) <= 1.02",
+				conditionLua = "local target = EntityList:Get(eventArgs.detectionTargetID)\nlocal potency = 300\n\nif not target then return false end\n\nif target.HP.percent >= 100 then return false end\n\nif Player.levels[24] ~= Player.level and Player.level <= 10 then\n    return (target.HP.percent/100) <= 0.8\nend\n\nif Player.levels[24] ~= Player.level and Player.level > 10 and Player.level <= 60 then\n    local x = Player.level\n    local formula = ((-7.291666666666*(10^-9)*(x^3))+(8.749999999999*(10^-7)*(x^2))-(0.0000442708*x)+(0.0015625))\n    local HealInPercent\t= (formula * potency) - (0.0005696 * (\t\t80 - Player.levels[24]))\n    return (target.HP.current + (Player.HP.max * HealInPercent * (math.random(975, 1025) / 1000))) / target.HP.max <= 1\nend\n\nreturn TensorCore.getPredictedDirectHealHP(target, round(potency,0), false, false, false, 1) <= 1",
 				conditionType = 2,
 				conditions = 
 				{
@@ -13440,6 +13440,7 @@ local tbl =
 					12,
 					54,
 					68,
+					93,
 				},
 				contentid = -1,
 				dequeueIfLuaFalse = false,
@@ -14622,7 +14623,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "6f9e1518-2122-12d1-8c5d-c481ad4cbfe0",
+		uuid = "a77c0992-6907-fab7-b651-3e15377229c1",
 	},
 	
 	{
@@ -15418,7 +15419,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "54d78f75-bf8d-8747-a945-b922faa1769f",
+		uuid = "7cd8ace1-d2de-d7b0-b5e8-905d39316ba8",
 	},
 	
 	{
@@ -16950,7 +16951,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "8edefd28-774b-e0ba-92a2-830b85cf473b",
+		uuid = "63f81257-7385-246d-9fda-40fd96b84605",
 	},
 	
 	{
@@ -17997,7 +17998,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "e7102ea4-4e9c-bbd0-8d97-934628e5ba9b",
+		uuid = "1dd6f94d-64ee-005b-b803-52a78042f702",
 	},
 	
 	{
@@ -18027,7 +18028,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "111925df-d58c-a8d2-adf9-8ca9892fa830",
+		uuid = "ed30b7bd-ad9c-c273-9222-f0a8a6efc155",
 	},
 	
 	{
@@ -20119,7 +20120,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "8c62551a-c848-d955-bcf8-744c09b73e1e",
+		uuid = "e5c93d08-b81b-ca28-81fd-7f696ba240e1",
 	},
 	
 	{
@@ -20905,7 +20906,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "80763688-5b1b-6591-8184-83ffe3c9f9a1",
+		uuid = "ca2853f0-def8-affd-98fd-6be2df651735",
 	},
 	
 	{
@@ -20935,7 +20936,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "010ac086-9f2d-2364-aded-52fbfb8b8cfd",
+		uuid = "cfc82891-e977-1320-9b90-578496f3151f",
 	},
 }
 
