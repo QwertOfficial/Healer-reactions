@@ -17,6 +17,14 @@ For e5n/e5s/e6s/e7s/e8s you need to load the `general_JOB_savage` reaction and t
 **Examples**:
 At first you would like to do e5n (e5s) with your Scholar. Load the `General_SCH_savage` reaction and the `Healer_e5n` (`Healer_e5s`) timeline. Then you decide to do an expert roulette with your Astrologian. Just load the `General_AST_everywhere` and you are good to go. At last you would like to do e6n, which also needs the `general_JOB_everywhere` profile. 
 
+Please try to position yourself as well as possible before a mechanic happens, so that you are safely and in range of as many players as possible. Try to stand in the middle of the group as often as possible. Also make it clear to your fellow players that they should not stand at the edge of the arena if they would like to be healed.
+
+# Hotkeys
+You can also assign hotkeys to the corresponding hotbar buttons. All you have to do is open 'TensorReactions', navigate to the 'General' tab and there, in the 'Heal Gui' reaction, define either a 'key' only or a 'modifier' and an additional 'key'. Do not forget to reload lua after you have changed the reaction.
+e.g. You want to press '4' to switch off the healing. Then change 'key = nil' to 'key = 52'.
+If, on the other hand, you want to switch off the healing as soon as you press 'SHIFT' and '4', you change (in addition to 'key = 52') 'modifier = nil' to 'modifier = 16'.
+Apart from that it is also possible to change the appearance (e.g. the size/colour of the buttons) of the hotbar in the reaction.
+
 # Supported ACRs
 **Job** | **Supported ACRs**
 ------------ | -------------
