@@ -28,7 +28,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "b8c1e1a6-d42e-d49b-b209-37220bc30727",
+		uuid = "a2f297f0-60b2-4d7c-9d08-0df20d3ae9ee",
 	},
 	
 	{
@@ -184,7 +184,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "d8b278bd-4d7e-d5fe-a56c-e07ebf7b990c",
+		uuid = "91d3042b-b6ee-9f7e-9f22-e713b4bdc6a5",
 	},
 	
 	{
@@ -214,7 +214,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "3cb5bc5c-9727-6007-93dc-5bae170d7ebd",
+		uuid = "3237cf19-d34e-db86-999e-a781a065e06d",
 	},
 	
 	{
@@ -1374,7 +1374,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "1d52836e-c803-ec98-a6ad-537d53994d71",
+		uuid = "8d5a9ba9-52d5-5365-a14c-912424b1b764",
 	},
 	
 	{
@@ -1866,7 +1866,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "e7c791b0-1c92-4d41-8ac5-81e6b7c16672",
+		uuid = "172033e6-407e-b146-8d51-266c2615b1a5",
 	},
 	
 	{
@@ -2230,7 +2230,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "88a6622a-edad-60e2-9ea5-35c2e9c21416",
+		uuid = "479dba87-7905-9aa2-96a6-de066aa8cf65",
 	},
 	
 	{
@@ -2467,7 +2467,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "0f2b3db5-2cb3-dc38-8433-ad18d05c4a90",
+		uuid = "e59f4d71-7d2d-ba90-a2f7-895e17a7c95a",
 	},
 	
 	{
@@ -3078,7 +3078,7 @@ local tbl =
 		timerOffset = -10,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "c0072335-b9b6-e42f-90ea-b0cc98b7b955",
+		uuid = "98d42024-587e-366f-baf7-fecb3312b173",
 	},
 	
 	{
@@ -3857,7 +3857,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "6092f1c2-0944-d481-98de-1ed4cca30bb6",
+		uuid = "9a00e06d-da71-2aff-b66d-518f65f0ee5c",
 	},
 	
 	{
@@ -4395,7 +4395,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "987c63c5-a094-d2c5-b44f-699ffe45ccc8",
+		uuid = "c2ac2357-7198-dc5b-90a2-dadbe42ba4d0",
 	},
 	
 	{
@@ -4504,7 +4504,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "091228da-5336-f295-bd60-00afab372723",
+		uuid = "bc55a6b7-4d35-cb3a-a236-ccbba8708c42",
 	},
 	
 	{
@@ -4534,7 +4534,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "c6894d4d-b26d-8338-b698-63421e737324",
+		uuid = "af5d6080-fe82-7d9f-857e-b13829733a55",
 	},
 	
 	{
@@ -6638,7 +6638,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "3c3189d9-9c9a-a42b-a428-d7389f03220c",
+		uuid = "68096021-14ac-c1dc-8591-5d17b1ec9929",
 	},
 	
 	{
@@ -7115,7 +7115,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = -4,
 		used = false,
-		uuid = "1175df96-f419-c250-a234-79b494b5f1ed",
+		uuid = "80950e77-82b5-9fcc-8cbd-7c5b37369d37",
 	},
 	
 	{
@@ -12059,7 +12059,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "32c73784-2760-25ab-8ed8-25d4a4729233",
+		uuid = "3400aaa8-1783-07a9-b7f2-216237c26287",
 	},
 	
 	{
@@ -12089,7 +12089,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "92fe60de-05ca-cd40-9ed9-91d7b8a97686",
+		uuid = "3f7dcb7a-3711-4119-a147-7a26dbf45d4e",
 	},
 	
 	{
@@ -12329,6 +12329,63 @@ local tbl =
 				luaNeedsWeaveWindow = false,
 				luaReturnsAction = false,
 				name = "ES",
+				positionPreviewColor = 
+				{
+				},
+				potType = 1,
+				setTarget = false,
+				showPositionPreview = false,
+				stopCasting = false,
+				stopMoving = false,
+				targetContentID = -1,
+				targetName = "",
+				targetSubType = "Nearest",
+				targetType = "Enemy",
+				untarget = false,
+				useForWeaving = false,
+				useItem = false,
+				useItemID = 0,
+				useItemName = "",
+				usePot = false,
+				used = false,
+				variableIsHover = false,
+				variableTogglesType = 1,
+			},
+			
+			{
+				aType = 1,
+				actionID = 7439,
+				actionLua = "",
+				allowInterrupt = false,
+				atomicPriority = false,
+				castAtMouse = false,
+				castPos = 
+				{
+				},
+				castPosX = 99.98999786377,
+				castPosY = 0,
+				castPosZ = 99.98999786377,
+				clusterMinPercent = false,
+				clusterMinTarget = 1,
+				clusterRadius = 8,
+				clusterRange = 30,
+				conditions = 
+				{
+					2,
+					1,
+					3,
+					60,
+					24,
+				},
+				endIfUsed = false,
+				gVar = "",
+				gVarIndex = 1,
+				gVarValue = 1,
+				ignoreWeaveRules = true,
+				isAreaTarget = true,
+				luaNeedsWeaveWindow = false,
+				luaReturnsAction = false,
+				name = "ES (e9s)(e11s)",
 				positionPreviewColor = 
 				{
 				},
@@ -12943,9 +13000,9 @@ local tbl =
 				castPos = 
 				{
 				},
-				castPosX = 100.01000213623,
+				castPosX = 99.98999786377,
 				castPosY = 0,
-				castPosZ = 99.949996948242,
+				castPosZ = 99.98999786377,
 				clusterMinPercent = false,
 				clusterMinTarget = 1,
 				clusterRadius = 8,
@@ -17391,7 +17448,7 @@ local tbl =
 				clusterRadius = 8,
 				clusterRange = 30,
 				comparator = 1,
-				conditionLua = "if data.SavageMap == nil then\n    data.SavageMap = {\n        [947] = true, --e10s\n        [949] = true  --e12s\n    }\nend\n\nif data.SavageMap[Player.localmapid] then\n    return false\nelse\n    return true\nend",
+				conditionLua = "if data.SavageMap == nil then\n    data.SavageMap = {\n        [946] = true, --e10s\n        [947] = true, --e10s\n        [948] = true, --e11s\n        [949] = true  --e12s\n    }\nend\n\nif data.SavageMap[Player.localmapid] then\n    return false\nelse\n    return true\nend",
 				conditionType = 1,
 				conditions = 
 				{
@@ -18478,6 +18535,85 @@ local tbl =
 				setEventTargetSubtype = 1,
 				setFirstMatch = false,
 			},
+			
+			{
+				actionCDValue = 0,
+				actionID = -1,
+				buffCheckType = 1,
+				buffDuration = 0,
+				buffID = -1,
+				buffIDList = 
+				{
+				},
+				category = 4,
+				channelCheckSpellID = -1,
+				channelCheckSpellIDList = 
+				{
+				},
+				channelCheckTimeRemain = 0,
+				channelCheckType = 1,
+				clusterMinPercent = false,
+				clusterMinTarget = 1,
+				clusterOriginalTarget = false,
+				clusterRadius = 8,
+				clusterRange = 30,
+				comparator = 1,
+				conditionLua = "if data.SavageMap == nil then\n    data.SavageMap = {\n        [946] = true, --e10s\n        [948] = true  --e11s\n    }\nend\n\nif data.SavageMap[Player.localmapid] then\n    return true\nelse\n    return false\nend",
+				conditionType = 8,
+				conditions = 
+				{
+				},
+				contentid = -1,
+				dequeueIfLuaFalse = false,
+				enmityValue = 0,
+				eventArgOptionType = 1,
+				eventArgType = 1,
+				eventBuffDuration = 0,
+				eventBuffID = -1,
+				eventChatLine = "",
+				eventEntityContentID = -1,
+				eventEntityID = -1,
+				eventEntityName = "",
+				eventMarkerID = -1,
+				eventOwnerContentID = -1,
+				eventOwnerID = -1,
+				eventOwnerName = "",
+				eventSpellID = -1,
+				eventSpellName = -1,
+				eventTargetContentID = -1,
+				eventTargetID = -1,
+				eventTargetName = "",
+				filterTargetSubtype = "Nearest",
+				filterTargetType = "Self",
+				gaugeIndex = 1,
+				gaugeValue = 0,
+				hpType = 1,
+				hpValue = 0,
+				inCombatType = 1,
+				inRangeValue = 0,
+				lastSkillID = -1,
+				localmapid = 948,
+				matchAnyBuff = false,
+				minTargetPercent = false,
+				mpType = 1,
+				mpValue = 0,
+				name = "e9s or e11s [TRUE]",
+				partyHpType = 1,
+				partyHpValue = 0,
+				partyMpType = 1,
+				partyMpValue = 0,
+				partyTargetContentID = -1,
+				partyTargetName = "",
+				partyTargetNumber = 1,
+				partyTargetSubType = 1,
+				partyTargetType = "All",
+				rangeCheckSourceSubType = "Nearest",
+				rangeCheckSourceType = "Self",
+				rangeSourceContentID = -1,
+				rangeSourceName = "",
+				setEventTargetSubtype = 1,
+				setFirstMatch = false,
+			},
 		},
 		enabled = true,
 		eventType = 7,
@@ -18499,7 +18635,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "957ad6b2-72f9-9620-b550-1dd6ee4ec561",
+		uuid = "1ec444fe-c42e-bf1e-8777-bcd0fde7ec5c",
 	},
 	
 	{
@@ -19285,7 +19421,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "d24fde5a-e217-365b-8d1d-d50ba2cfa26b",
+		uuid = "fec2ee81-914d-fb27-b66f-752339d8a4de",
 	},
 	
 	{
@@ -19315,7 +19451,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "32f999ee-ef02-ff0f-9f58-edbec85dcc48",
+		uuid = "ac38ca0e-f227-a61f-bda3-3b3faaba734e",
 	},
 }
 
