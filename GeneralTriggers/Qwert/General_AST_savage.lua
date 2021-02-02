@@ -9662,7 +9662,6 @@ local tbl =
 				conditions = 
 				{
 					11,
-					9,
 					7,
 					4,
 				},
@@ -12362,9 +12361,9 @@ local tbl =
 				castPos = 
 				{
 				},
-				castPosX = 99.98999786377,
+				castPosX = 99.992309570313,
 				castPosY = 0,
-				castPosZ = 99.98999786377,
+				castPosZ = 99.992309570313,
 				clusterMinPercent = false,
 				clusterMinTarget = 1,
 				clusterRadius = 8,
@@ -17448,7 +17447,7 @@ local tbl =
 				clusterRadius = 8,
 				clusterRange = 30,
 				comparator = 1,
-				conditionLua = "if data.SavageMap == nil then\n    data.SavageMap = {\n        [946] = true, --e10s\n        [947] = true, --e10s\n        [948] = true, --e11s\n        [949] = true  --e12s\n    }\nend\n\nif data.SavageMap[Player.localmapid] then\n    return false\nelse\n    return true\nend",
+				conditionLua = "if data.PrepullMapsTwo == nil then\n    data.PrepullMapsTwo = {\n        [946] = true, --e10s\n        [947] = true, --e10s\n        [948] = true, --e11s\n        [949] = true  --e12s\n    }\nend\n\nif data.PrepullMapsTwo[Player.localmapid] then\n    return false\nelse\n    return true\nend",
 				conditionType = 1,
 				conditions = 
 				{
@@ -18558,7 +18557,7 @@ local tbl =
 				clusterRadius = 8,
 				clusterRange = 30,
 				comparator = 1,
-				conditionLua = "if data.SavageMap == nil then\n    data.SavageMap = {\n        [946] = true, --e10s\n        [948] = true  --e11s\n    }\nend\n\nif data.SavageMap[Player.localmapid] then\n    return true\nelse\n    return false\nend",
+				conditionLua = "if data.PrepullMapsOne == nil then\n    data.PrepullMapsOne = {\n        [946] = true, --e9s\n        [948] = true  --e11s\n    }\nend\n\nif data.PrepullMapsOne[Player.localmapid] then\n    return true\nelse\n    return false\nend",
 				conditionType = 8,
 				conditions = 
 				{
