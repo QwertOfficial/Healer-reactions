@@ -28,7 +28,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "ea879afb-bf68-bd36-9a6d-3fb6253772d4",
+		uuid = "0f6fad3c-ecba-9265-b32b-c09bbbe92f17",
 	},
 	
 	{
@@ -265,7 +265,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "a2f6f762-b082-ab4b-af3b-1795930677b3",
+		uuid = "f63242c6-66ac-a2f0-8404-a4f6b1af91ea",
 	},
 	
 	{
@@ -295,7 +295,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "ceccacfe-9ca1-5276-9b52-fe35db22744f",
+		uuid = "3ac8f698-beec-04cb-ada9-27ff576d7538",
 	},
 	
 	{
@@ -1295,7 +1295,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "c05fa63b-713e-534b-bec4-c810246b555f",
+		uuid = "03fadaf7-1cd9-5e26-be35-c573883c747e",
 	},
 	
 	{
@@ -1530,7 +1530,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "397dee93-b059-b617-9c18-53d10902b2f9",
+		uuid = "d942b736-0e76-0fae-8b76-d64d61fde339",
 	},
 	
 	{
@@ -1767,7 +1767,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "4d8719cd-1daa-9059-9c8e-49fe46f3fcf4",
+		uuid = "99b553c8-515e-50bf-89b4-4c5751f4d1f5",
 	},
 	
 	{
@@ -2378,7 +2378,7 @@ local tbl =
 		timerOffset = -10,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "0558b541-8d4d-af9d-b599-cb3e1aad3e73",
+		uuid = "62ec1d0f-1683-44e3-9fcc-03892bf0263c",
 	},
 	
 	{
@@ -3157,7 +3157,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "2a6fe9c5-38e7-7d4e-8485-2925b7f76079",
+		uuid = "93d82e59-929d-9ac4-b7f0-a3cab5428785",
 	},
 	
 	{
@@ -3695,7 +3695,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "6f3dbc4a-8900-ccea-8929-21bf0d878678",
+		uuid = "f02f9b35-7aa9-ebea-8e2b-8c1f44e47087",
 	},
 	
 	{
@@ -3804,7 +3804,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "caf83e28-7098-182e-bd39-c82c34026e1e",
+		uuid = "500e231f-966d-7aea-a4ce-db7c73372ce9",
 	},
 	
 	{
@@ -3834,7 +3834,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "68a3c9fc-bbb0-7e06-a414-2a77f26f5205",
+		uuid = "0a195e92-42e4-8679-99cf-86e31f21bc4e",
 	},
 	
 	{
@@ -4151,7 +4151,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "ee821388-d27b-af5e-877e-92e4a0087048",
+		uuid = "9b9a9038-dc0f-e54b-92ab-4e85452fcf68",
 	},
 	
 	{
@@ -4388,7 +4388,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "1e0e6f3a-ad7d-fafa-9f62-de2e1b3e1f4e",
+		uuid = "be31f889-12e7-4d01-8647-af5158451ce8",
 	},
 	
 	{
@@ -4625,7 +4625,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "9ab22fc2-8e66-1161-b145-3513cf215145",
+		uuid = "a4376e2a-195c-387b-9e5d-fe950a0ce7ae",
 	},
 	
 	{
@@ -4655,7 +4655,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "5baf61fe-1ba8-8265-95e3-ca707979ff67",
+		uuid = "9f7985b2-24a1-e057-95df-3c5d43866c58",
 	},
 	
 	{
@@ -4725,6 +4725,7 @@ local tbl =
 				conditions = 
 				{
 					42,
+					94,
 					3,
 				},
 				endIfUsed = true,
@@ -4868,7 +4869,7 @@ local tbl =
 				{
 					93,
 					15,
-					80,
+					95,
 				},
 				endIfUsed = true,
 				gVar = "ACR_RikuWHM_Healbar_Regen",
@@ -5788,8 +5789,8 @@ local tbl =
 			{
 				actionCDValue = 0,
 				actionID = -1,
-				buffCheckType = 4,
-				buffDuration = 3,
+				buffCheckType = 6,
+				buffDuration = 5,
 				buffID = -1,
 				buffIDList = 
 				{
@@ -5846,11 +5847,11 @@ local tbl =
 				inRangeValue = 0,
 				lastSkillID = -1,
 				localmapid = -1,
-				matchAnyBuff = true,
+				matchAnyBuff = false,
 				minTargetPercent = false,
 				mpType = 1,
 				mpValue = 0,
-				name = "Invul <= 3",
+				name = "Invul <= 5",
 				partyHpType = 1,
 				partyHpValue = 0,
 				partyMpType = 1,
@@ -5975,6 +5976,7 @@ local tbl =
 				{
 					2,
 					11,
+					1,
 				},
 				contentid = -1,
 				dequeueIfLuaFalse = false,
@@ -6650,7 +6652,7 @@ local tbl =
 				minTargetPercent = false,
 				mpType = 1,
 				mpValue = 0,
-				name = "Invul >= 3",
+				name = "Invul",
 				partyHpType = 1,
 				partyHpValue = 0,
 				partyMpType = 1,
@@ -8200,8 +8202,8 @@ local tbl =
 				},
 				channelCheckTimeRemain = 0,
 				channelCheckType = 1,
-				clusterMinPercent = false,
-				clusterMinTarget = 1,
+				clusterMinPercent = true,
+				clusterMinTarget = 75,
 				clusterOriginalTarget = false,
 				clusterRadius = 6,
 				clusterRange = 30,
@@ -12127,6 +12129,7 @@ local tbl =
 				conditions = 
 				{
 					2,
+					96,
 					81,
 				},
 				contentid = -1,
@@ -13216,6 +13219,251 @@ local tbl =
 				setEventTargetSubtype = 1,
 				setFirstMatch = false,
 			},
+			
+			{
+				actionCDValue = 0,
+				actionID = -1,
+				buffCheckType = 1,
+				buffDuration = 0,
+				buffID = -1,
+				buffIDList = 
+				{
+				},
+				category = 4,
+				channelCheckSpellID = -1,
+				channelCheckSpellIDList = 
+				{
+				},
+				channelCheckTimeRemain = 0,
+				channelCheckType = 1,
+				clusterMinPercent = false,
+				clusterMinTarget = 1,
+				clusterOriginalTarget = false,
+				clusterRadius = 8,
+				clusterRange = 30,
+				comparator = 1,
+				conditionLua = "return data.DoubleTb == nil or data.DoubleTb == false",
+				conditionType = 1,
+				conditions = 
+				{
+				},
+				contentid = -1,
+				dequeueIfLuaFalse = false,
+				enmityValue = 0,
+				eventArgOptionType = 1,
+				eventArgType = 1,
+				eventBuffDuration = 0,
+				eventBuffID = -1,
+				eventChatLine = "",
+				eventEntityContentID = -1,
+				eventEntityID = -1,
+				eventEntityName = "",
+				eventMarkerID = -1,
+				eventOwnerContentID = -1,
+				eventOwnerID = -1,
+				eventOwnerName = "",
+				eventSpellID = -1,
+				eventSpellName = -1,
+				eventTargetContentID = -1,
+				eventTargetID = -1,
+				eventTargetName = "",
+				filterTargetSubtype = "Nearest",
+				filterTargetType = "Self",
+				gaugeIndex = 1,
+				gaugeValue = 0,
+				hpType = 1,
+				hpValue = 0,
+				inCombatType = 1,
+				inRangeValue = 0,
+				lastSkillID = -1,
+				localmapid = -1,
+				matchAnyBuff = false,
+				minTargetPercent = false,
+				mpType = 1,
+				mpValue = 0,
+				name = "Double TB [FALSE]",
+				partyHpType = 1,
+				partyHpValue = 0,
+				partyMpType = 1,
+				partyMpValue = 0,
+				partyTargetContentID = -1,
+				partyTargetName = "",
+				partyTargetNumber = 1,
+				partyTargetSubType = "Nearest",
+				partyTargetType = "All",
+				rangeCheckSourceSubType = "Nearest",
+				rangeCheckSourceType = "Self",
+				rangeSourceContentID = -1,
+				rangeSourceName = "",
+				setEventTargetSubtype = 1,
+				setFirstMatch = false,
+			},
+			
+			{
+				actionCDValue = 0,
+				actionID = -1,
+				buffCheckType = 1,
+				buffDuration = 0,
+				buffID = -1,
+				buffIDList = 
+				{
+				},
+				category = 6,
+				channelCheckSpellID = -1,
+				channelCheckSpellIDList = 
+				{
+				},
+				channelCheckTimeRemain = 0,
+				channelCheckType = 1,
+				clusterMinPercent = false,
+				clusterMinTarget = 1,
+				clusterOriginalTarget = false,
+				clusterRadius = 8,
+				clusterRange = 30,
+				comparator = 1,
+				conditionLua = "",
+				conditionType = 1,
+				conditions = 
+				{
+					2,
+					9,
+					96,
+					81,
+				},
+				contentid = -1,
+				dequeueIfLuaFalse = false,
+				enmityValue = 0,
+				eventArgOptionType = 1,
+				eventArgType = 1,
+				eventBuffDuration = 0,
+				eventBuffID = -1,
+				eventChatLine = "",
+				eventEntityContentID = -1,
+				eventEntityID = -1,
+				eventEntityName = "",
+				eventMarkerID = -1,
+				eventOwnerContentID = -1,
+				eventOwnerID = -1,
+				eventOwnerName = "",
+				eventSpellID = -1,
+				eventSpellName = -1,
+				eventTargetContentID = -1,
+				eventTargetID = -1,
+				eventTargetName = "",
+				filterTargetSubtype = "Nearest",
+				filterTargetType = "Tank",
+				gaugeIndex = 1,
+				gaugeValue = 0,
+				hpType = 1,
+				hpValue = 0,
+				inCombatType = 1,
+				inRangeValue = 0,
+				lastSkillID = -1,
+				localmapid = -1,
+				matchAnyBuff = false,
+				minTargetPercent = false,
+				mpType = 1,
+				mpValue = 0,
+				name = "F - Regen (TB)",
+				partyHpType = 1,
+				partyHpValue = 0,
+				partyMpType = 1,
+				partyMpValue = 0,
+				partyTargetContentID = -1,
+				partyTargetName = "",
+				partyTargetNumber = 1,
+				partyTargetSubType = "Nearest",
+				partyTargetType = "All",
+				rangeCheckSourceSubType = "Nearest",
+				rangeCheckSourceType = "Self",
+				rangeSourceContentID = -1,
+				rangeSourceName = "",
+				setEventTargetSubtype = 1,
+				setFirstMatch = false,
+			},
+			
+			{
+				actionCDValue = 0,
+				actionID = -1,
+				buffCheckType = 6,
+				buffDuration = 2.5,
+				buffID = -1,
+				buffIDList = 
+				{
+					82,
+					409,
+					1836,
+					811,
+				},
+				category = 3,
+				channelCheckSpellID = -1,
+				channelCheckSpellIDList = 
+				{
+				},
+				channelCheckTimeRemain = 0,
+				channelCheckType = 1,
+				clusterMinPercent = false,
+				clusterMinTarget = 1,
+				clusterOriginalTarget = false,
+				clusterRadius = 8,
+				clusterRange = 30,
+				comparator = 2,
+				conditionLua = "",
+				conditionType = 1,
+				conditions = 
+				{
+				},
+				contentid = -1,
+				dequeueIfLuaFalse = false,
+				enmityValue = 0,
+				eventArgOptionType = 1,
+				eventArgType = 1,
+				eventBuffDuration = 0,
+				eventBuffID = -1,
+				eventChatLine = "",
+				eventEntityContentID = -1,
+				eventEntityID = -1,
+				eventEntityName = "",
+				eventMarkerID = -1,
+				eventOwnerContentID = -1,
+				eventOwnerID = -1,
+				eventOwnerName = "",
+				eventSpellID = -1,
+				eventSpellName = -1,
+				eventTargetContentID = -1,
+				eventTargetID = -1,
+				eventTargetName = "",
+				filterTargetSubtype = "Nearest",
+				filterTargetType = "Self",
+				gaugeIndex = 1,
+				gaugeValue = 0,
+				hpType = 1,
+				hpValue = 0,
+				inCombatType = 1,
+				inRangeValue = 0,
+				lastSkillID = -1,
+				localmapid = -1,
+				matchAnyBuff = false,
+				minTargetPercent = false,
+				mpType = 1,
+				mpValue = 0,
+				name = "Invul <= 2.5 [FALSE]",
+				partyHpType = 1,
+				partyHpValue = 0,
+				partyMpType = 1,
+				partyMpValue = 0,
+				partyTargetContentID = -1,
+				partyTargetName = "",
+				partyTargetNumber = 1,
+				partyTargetSubType = 1,
+				partyTargetType = "Detection Target",
+				rangeCheckSourceSubType = "Nearest",
+				rangeCheckSourceType = "Self",
+				rangeSourceContentID = -1,
+				rangeSourceName = "",
+				setEventTargetSubtype = 1,
+				setFirstMatch = false,
+			},
 		},
 		enabled = true,
 		eventType = 1,
@@ -13237,7 +13485,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "977a1ba9-5a2f-87aa-a49f-49103b23b1ed",
+		uuid = "554bdce4-cca4-5783-aa52-45d34b5873e1",
 	},
 	
 	{
@@ -13267,7 +13515,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "eb43f1a0-663c-00fe-ab51-5bee68f4e51f",
+		uuid = "bc778b71-fab5-7adb-aef6-ed529d92ee15",
 	},
 	
 	{
@@ -15359,7 +15607,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "f4bd8feb-dcc7-fcf2-b989-51c3b417d623",
+		uuid = "ff7fb31b-cbcf-cf29-b27f-5401f8f71aed",
 	},
 	
 	{
@@ -16145,7 +16393,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "f203fb42-594e-c393-901c-7794fa3e697f",
+		uuid = "9a2a3390-be30-aa54-9ee8-d6368ba16d21",
 	},
 	
 	{
@@ -16175,7 +16423,7 @@ local tbl =
 		timerOffset = 0,
 		timerStartOffset = 0,
 		used = false,
-		uuid = "49f568cb-00c5-f69d-b396-9579629f5e54",
+		uuid = "5cf782cd-641f-4655-9911-76369972cae7",
 	},
 }
 
