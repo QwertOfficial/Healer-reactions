@@ -1225,7 +1225,7 @@ local tbl =
 				clusterRadius = 8,
 				clusterRange = 30,
 				comparator = 1,
-				conditionLua = "return FFXIV_Common_BotRunning == true or (HusbandoMaxAddonStatus ~= nil and (HusbandoMaxAddonStatus.Assist.Enabled == true or HusbandoMaxAddonStatus.DeepDungeon.Enabled == true or HusbandoMaxAddonStatus.DungeonMaster.Enabled == true or HusbandoMaxAddonStatus.EurekaAnemos.Enabled == true or HusbandoMaxAddonStatus.EurekaHydatos.Enabled == true or HusbandoMaxAddonStatus.EurekaPagos.Enabled == true or HusbandoMaxAddonStatus.EurekaPyros.Enabled == true or HusbandoMaxAddonStatus.Events.Enabled == true or HusbandoMaxAddonStatus.HuntTracker.Enabled == true or HusbandoMaxAddonStatus.PartyFollowAssist.Enabled == true or HusbandoMaxAddonStatus.TreasureMap.Enabled == true)) or (Kitanois_USP_Dungeons ~= nil and Kitanois_USP_Dungeons.Enable == true) or (Kitanois_treasure_hunt ~= nil and Kitanois_treasure_hunt.Enable == true)",
+				conditionLua = "return FFXIV_Common_BotRunning == true or (HusbandoMaxAddonStatus ~= nil and (HusbandoMaxAddonStatus.Assist.Enabled == true or HusbandoMaxAddonStatus.DeepDungeon.Enabled == true or HusbandoMaxAddonStatus.DungeonMaster.Enabled == true or HusbandoMaxAddonStatus.EurekaAnemos.Enabled == true or HusbandoMaxAddonStatus.EurekaHydatos.Enabled == true or HusbandoMaxAddonStatus.EurekaPagos.Enabled == true or HusbandoMaxAddonStatus.EurekaPyros.Enabled == true or HusbandoMaxAddonStatus.Events.Enabled == true or HusbandoMaxAddonStatus.HuntTracker.Enabled == true or HusbandoMaxAddonStatus.PartyFollowAssist.Enabled == true or HusbandoMaxAddonStatus.TreasureMap.Enabled == true)) or (KitanoiFuncs ~= nil and KitanoiFuncs.AreKitanoiAddonsRunning() == true)",
 				conditionType = 1,
 				conditions = 
 				{
@@ -1541,7 +1541,7 @@ local tbl =
 				clusterRadius = 8,
 				clusterRange = 30,
 				comparator = 1,
-				conditionLua = "return FFXIV_Common_BotRunning == false and (HusbandoMaxAddonStatus == nil or (HusbandoMaxAddonStatus.Assist.Enabled == false and HusbandoMaxAddonStatus.DeepDungeon.Enabled == false and HusbandoMaxAddonStatus.DungeonMaster.Enabled == false and HusbandoMaxAddonStatus.EurekaAnemos.Enabled == false and HusbandoMaxAddonStatus.EurekaHydatos.Enabled == false and HusbandoMaxAddonStatus.EurekaPagos.Enabled == false and HusbandoMaxAddonStatus.EurekaPyros.Enabled == false and HusbandoMaxAddonStatus.Events.Enabled == false and HusbandoMaxAddonStatus.HuntTracker.Enabled == false and HusbandoMaxAddonStatus.PartyFollowAssist.Enabled == false and HusbandoMaxAddonStatus.TreasureMap.Enabled == false)) and (Kitanois_USP_Dungeons == nil or Kitanois_USP_Dungeons.Enable == false) and (Kitanois_treasure_hunt == nil or Kitanois_treasure_hunt.Enable == false)",
+				conditionLua = "return FFXIV_Common_BotRunning == false and (HusbandoMaxAddonStatus == nil or (HusbandoMaxAddonStatus.Assist.Enabled == false and HusbandoMaxAddonStatus.DeepDungeon.Enabled == false and HusbandoMaxAddonStatus.DungeonMaster.Enabled == false and HusbandoMaxAddonStatus.EurekaAnemos.Enabled == false and HusbandoMaxAddonStatus.EurekaHydatos.Enabled == false and HusbandoMaxAddonStatus.EurekaPagos.Enabled == false and HusbandoMaxAddonStatus.EurekaPyros.Enabled == false and HusbandoMaxAddonStatus.Events.Enabled == false and HusbandoMaxAddonStatus.HuntTracker.Enabled == false and HusbandoMaxAddonStatus.PartyFollowAssist.Enabled == false and HusbandoMaxAddonStatus.TreasureMap.Enabled == false)) and (KitanoiFuncs == nil or KitanoiFuncs.AreKitanoiAddonsRunning() == false)",
 				conditionType = 1,
 				conditions = 
 				{
