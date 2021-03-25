@@ -3,7 +3,7 @@ The project contains healer reactions for the current savage content, including 
 
 Additionally there can be found reactions for any other location. The `general_JOB_everywhere` reaction works anywhere apart from the optimised savage raids and the trial timeline (e5n).
 
-Please test the reactions when using them for the first time in Trusts. This is to make sure that the files have been configured correctly and to get you first impressions about the functionality. 
+Please test the reactions when using them for the first time in a Trust. This is to make sure that the files have been configured correctly and to get you first impressions about the functionality. 
 
 Check out my other projects to use QwertCore, which is an extension to my reactions and includes many useful features.
 
