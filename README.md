@@ -3,6 +3,8 @@ The project contains healer reactions for the current savage content, including 
 
 Additionally there can be found reactions for any other location. The `general_JOB_everywhere` reaction works anywhere apart from the optimised savage raids and the trial timeline (e5n).
 
+Check out my other projects to use QwertCore, which is an extension to my reactions and includes many useful features.
+
 # Requirements
 [TensorReactions](http://wiki.mmominion.com/doku.php?id=tensorreactions)
 
