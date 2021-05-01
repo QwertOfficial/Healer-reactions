@@ -7005,6 +7005,7 @@ local tbl =
 					409,
 					1836,
 					811,
+					810
 				},
 				category = 3,
 				channelCheckSpellID = -1,
@@ -7806,6 +7807,7 @@ local tbl =
 					409,
 					1836,
 					811,
+					810
 				},
 				category = 3,
 				channelCheckSpellID = -1,
